@@ -9,7 +9,7 @@ use App\Response;
 class ResponseAdminController extends Controller
 {
     public function index(){
-        $response = Response::All();
+        $response = Response::orderByDesc('id')->get();
         $answer = Answer::All();
         return view('admin.response', compact('response', 'answer'));
     }
