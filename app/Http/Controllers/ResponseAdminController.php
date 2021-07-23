@@ -16,6 +16,7 @@ class ResponseAdminController extends Controller
 
     public function edit($id){
 
+            $answer = Answer::All();
             $response = Response::find($id);
             return view('admin.edit-response', compact('response'));
         }
