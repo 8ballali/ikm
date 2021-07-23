@@ -84,7 +84,7 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="/penilaian/admin/ class="brand-link">
+            <a href="/penilaian/admin/" class="brand-link">
                 <img src="{{ url('/style/dist/img/AdminLTELogo.PNG')}}" alt="AdminLTE Logo"
                     class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">CAN CREATIVE</span>
