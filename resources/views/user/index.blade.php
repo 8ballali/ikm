@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="{{url('assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{url('assets/css/animate.min.css')}}">
     <link rel="stylesheet" href="{{url('assets/css/aos.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <title>KEPUASAN MASYARAKAT</title>
 </head>
 
