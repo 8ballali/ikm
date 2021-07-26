@@ -14,6 +14,6 @@ class ResponseController extends Controller
         Response::create([
             'answer_id' => $request->answer_id
         ]);
-        return redirect('/')->with('success', 'Terimakasih, Kami akan terus berusaha untuk meningkatkan pelayanan');
+        return view('user.thankyou');
     }
 }

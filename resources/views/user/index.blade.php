@@ -25,7 +25,7 @@
                 <h2 class="animate__animated animate__fadeInDown">
                     <br> Bagaimana Pelayanan Kami ?
                     @if(session()->has('success'))
-                    <div class="toast alert alert-success alert-dismissible show fade">
+                    <div class="alert alert-success alert-dismissible show fade">
                         <div class="alert-body">
                         <button class="close" data-dismiss="alert">
                             <span>&times;</span>
@@ -85,12 +85,6 @@
         });
 
     </script>
-
-        <script>
-        $(document).ready(function(){
-            $('.toast').toast('show');
-        });
-        </script>
 </body>
 
 </html>
