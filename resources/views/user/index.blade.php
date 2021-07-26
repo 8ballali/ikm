@@ -35,7 +35,7 @@
     </style>
     <div class="container">
         <div class="alert alert-warning" role="alert">
-            Anda dapat memberikan penilaian dengan memilih salah satu icon di bawah ini
+            Anda dapat memberikan penilaian dengan memilih salah satu icon di berikut ini 
         </div>
         <div class="row text-center" data-aos="fade-up">
             @foreach ($answer as $a)
