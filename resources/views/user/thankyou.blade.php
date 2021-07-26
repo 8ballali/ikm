@@ -31,7 +31,7 @@
 
 
     <script>
-        document.addEventListener("DOMContentLoaded", function(event) { 
+        document.addEventListener("DOMContentLoaded", function(e) { 
             e.preventDefault(); //will stop the link href to call the blog page
 
             setTimeout(function () {
