@@ -14,6 +14,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>KEPUASAN MASYARAKAT</title>
 </head>
 
@@ -24,7 +25,7 @@
                 <h2 class="animate__animated animate__fadeInDown">
                     <br> Bagaimana Pelayanan Kami ?
                     @if(session()->has('success'))
-                    <div class="alert alert-success alert-dismissible show fade">
+                    <div class="toast alert alert-success alert-dismissible show fade">
                         <div class="alert-body">
                         <button class="close" data-dismiss="alert">
                             <span>&times;</span>
@@ -84,6 +85,12 @@
         });
 
     </script>
+
+        <script>
+        $(document).ready(function(){
+            $('.toast').toast('show');
+        });
+        </script>
 </body>
 
 </html>
